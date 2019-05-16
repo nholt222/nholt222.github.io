@@ -1,0 +1,78 @@
+body, html {
+    height:  100%;
+    margin:  0px auto;
+    padding: 0px auto;
+    color: white;
+}
+
+#wrapper {
+    height:     100%;       
+    min-height: 100%;
+    margin:     0px auto;
+    padding:    0px auto;
+    background-image: url(../images/banner1.jpg);
+    background-size: cover;
+    background-position: center center;  
+ }
+
+ .padding {
+ 	padding-top: 150px;
+ }
+
+ .hero-p {
+ 	text-align: center;
+ 	padding-top: 20px;
+ }
+
+ .hero-button {
+ 	padding-top: 65px;
+ 	text-align: center;
+ 	margin: 0 auto;
+ }
+
+span {
+	font-size: 30px;
+}
+ h1 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: 400;
+    margin: 0 0 19px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+h5 {
+	text-align: center;
+	padding-top: 6rem;
+	font-size: 30px;
+}
+
+.test {
+	height: 1500px;
+}
+
+#overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.8); /*dim the background*/
+}
+
+.btn {
+    font-family: Poppins;
+    font-weight: 400;
+    letter-spacing: 3px;
+    background: #1BA4B0;
+    border-color: #1BA4B0;
+}
+
+.btn:hover {
+    background-color: #0D5258;
+    border-color: #0D5258;
+}
